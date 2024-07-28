@@ -10,19 +10,42 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+      The Good: 
+        https://public.tableau.com/app/profile/airlines.for.america/viz/AverageDomesticAirfareTimeSeries/Dashboard_DomesticTimeSeries 
+
+        - Very precise and simple 
+        - Easy to read through
+        - Convey the message very well 
+        - not much cognitive load on the reader 
+        - Sources are mentioned to build trust 
+        - color selection supports accessibility 
 
 
+      The Bad: 
+        https://public.tableau.com/app/profile/andreask28/viz/NetflixUsageV2/NetflixUsage
 
-
-
+        - Color selection is too aggressive, Red everywhere 
+            - Usually Red is considered as negative or alert, it is not clear that why those metrics may be dangerous or risk ? 
+        - The objective of the visuals is not clear, what is the message to be conveyed ? 
+        -  In the first chart, I think simple trend line (line graph) should have conveyed the info better as compared to the cumulative graph through filled trend. 
+        - scater plot - their is no legend provided, what does the size of each bubble convey ? This increase cognitive load for better understanding the chart. 
+        - 3rd graph (bar plot) is redundant because the same info is conveyed in the first graph to show trend. 
 
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+    The good viz can further be improved as 
+    - add axis title and axis marks to help readability 
+    - add a slope line to show trend of increase/ decline 
+    - legend on the side can improve as well 
+    - Chart titles are to be emphasized further hence fonts selection may be revised. 
 
+    The bad viz can be improved by 
+    - better color scheme selection 
+    - Removing redundant information 
+    - Selection of right chart types 
+    - Setting up a clear objective before creating charts. 
 
 
 
@@ -62,6 +85,6 @@ Checklist:
 - [ ] Create a branch called `assignment-2`.
 - [ ] Ensure that the repository is public.
 - [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [x ] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack at `#cohort-3-help`. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
